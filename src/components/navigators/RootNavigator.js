@@ -1,6 +1,5 @@
 // @flow
 import { createStackNavigator } from 'react-navigation';
-import { Text } from 'react-native'
 import { Screen1, Screen2 } from './../screens/Screens.sample';
 
 const RootNavigator = createStackNavigator({
@@ -10,7 +9,7 @@ const RootNavigator = createStackNavigator({
       title: 'Screen 1',
     }),
   },
-  Infos: { screen: Screen2 },
+  /* Add more screen here */
 });
 
 export default RootNavigator;
