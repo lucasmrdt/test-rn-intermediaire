@@ -13,8 +13,13 @@
     "faker": "^4.1.0",
     "react": "16.5.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
+    "react-native-elements": "^0.19.1",
+    "react-native-keyboard-spacer": "^0.4.1",
+    "react-native-modal-dropdown": "^0.6.2",
     "react-navigation": "^2.18.2",
     "react-redux": "^5.1.0",
+    "reactotron-react-native": "^2.1.0",
+    "reactotron-redux": "^2.1.0",
     "redux": "^4.0.1",
     "redux-saga": "^0.16.2"
   },

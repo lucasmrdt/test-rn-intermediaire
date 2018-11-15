@@ -1,14 +1,19 @@
 // @flow
 import { combineReducers } from 'redux';
-import reducerSample from './reducer.sample';
-import type { StateType as ReducerSampleStateType } from './reducer.sample';
+import usersReducer from './usersReducer';
+import filterReducer from './filterReducer';
 
-type AppState = {
-  reducerSample: ReducerSampleStateType,
+import { type StateType as UserStateType } from './usersReducer';
+import { type StateType as FilterStateType } from './filterReducer';
+
+export type AppState = {
+  usersReducer: UserStateType,
+  filterReducer: FilterStateType,
 };
 
 const state: AppState = combineReducers({
-  reducerSample,
+  usersReducer,
+  filterReducer,
 });
 
 export default state;
